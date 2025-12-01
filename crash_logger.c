@@ -26,11 +26,11 @@ SoftwareSerial ss(D6, D5);   // GPS: RX=D6, TX=D5
 WiFiServer server(80);
 
 // ----- Telegram credentials -----
-//String BOT_TOKEN = "7963726070:AAEBbKqE-CxdJWnLgo_0irH3m3a-hPAzvzU";
-//String CHAT_ID = "5558370076";
+//String BOT_TOKEN = "your token";
+//String CHAT_ID = "your id";
 
-String BOT_TOKEN = "8451372665:AAEiXYCURnH6E8oqWUX4F0O3Hg9YrE1aGHs";
-String CHAT_ID = "1346004700";
+String BOT_TOKEN = "add your token";//update
+String CHAT_ID = "add your id"; //update
 
 WiFiClientSecure clientTCP;
 UniversalTelegramBot bot(BOT_TOKEN, clientTCP);
