@@ -23,10 +23,12 @@ Adjustable thresholds for sensitivity/tuning
 
 NodeMCU(ESP8266)
 ESP32
-MPU6050 (3-axis accelerometer + 3-axis gyroscope; communicates over I²C) — Adafruit or MPU6050 breakout
+MPU6050 (3-axis accelerometer + 3-axis gyroscope; 
+communicates over I²C) — Adafruit or MPU6050 breakout
 NEO-6M GPS module (u-blox) — UART TTL (3.3V)
+LCD display
 Buzzer
-Wires, connectors, small protoboard
+Wires, connectors, small protoboard.
 
 **Wiring / pin mapping (typical)**
 
